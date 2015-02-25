@@ -1,6 +1,8 @@
 package br.unicesumar.ads2015.Alunos;
 
-public class Aluno {
+import java.io.Serializable;
+
+public class Aluno implements Serializable{
     private String nome;
     private String ra;
 
